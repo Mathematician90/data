@@ -1,5 +1,4 @@
 This file describes how run_analysis.R script works.
-
     1.unzip the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and rename the folder with "data".
     2.Put data into /home/yourname
     3.Put run_analysis.R into /home/yourname/data
