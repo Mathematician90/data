@@ -8,6 +8,4 @@ This file describes how run_analysis.R script works.
 * In RStudio: setwd("/home/yourname")
 * Use source("run_analysis.R") command in RStudio 
 * You will find two output files are generated in the current working directory: mergedcleaneddata.txt: it contains a dataframe called MergedCleanedData with 10299x68 dimension, datasetaverages.txt : it contains a dataframe called averages with 180x68 dimension.
-* Use data <- read.table("datasetaverages.txt") command in RStudio to read the file. There are 6 activities in total and 30 subjects in total, so we have 180 rows with all combinations for each of the 66 features.
-
-
+* Use data <- read.table("datasetaverages.txt") command in RStudio to read the file. 
