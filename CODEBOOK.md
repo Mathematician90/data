@@ -6,7 +6,6 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 The data for the project:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 * The run_analysis.R script performs the following steps to clean the data:
-
 1.Read and concatenate: X_train.txt and X_test.txt in new X dataframe by one command with 10299x66 dimension, Y_train.txt and Y_test.txt in new Y dataframe by one command with 10299x1 dimension, subject_train.txt and subject_test.txt in new Subj dataframe by one command with 10299x1 dimension
 2.Read the features.txt file from the "/data" folder and store the data in a variable called features. We only extract the measurements on the mean and standard deviation and store them in NecessaryFeatures. This results in a 66 indices list. We get a subset of X with the 66 corresponding columns.
 3.Read the activity_labels.txt file from the "./data"" folder and store the data in a variable called activity.
