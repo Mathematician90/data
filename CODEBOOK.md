@@ -15,7 +15,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
   4.Clean the activity names in the second column of activity. We first make all names to lower cases. If the name has an underscore between letters, we remove the underscore.
 
-  5.Transform the values of joinLabel according to the activity data frame.
+  5.Transform the values of Y according to the activity data frame.
 
   6.Appropriately labels the data set with descriptive variable names: transform f into Frequency, t into Time, mean into MeanValue, std into Standard Deviation, Acc into LinearAcceleration, Gyro in AngularVelocity, Mag into Magnitude, delete () and - .
 
